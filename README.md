@@ -1,6 +1,6 @@
-# Python Calculator
+# 🧮 CS50 Python Calculator
 
-A simple calculator written in Python as a personal project after completing Harvard CS50.
+A command-line calculator developed in Python as a personal project after studying Harvard's CS50.
 
 ## Features
 
@@ -8,40 +8,74 @@ A simple calculator written in Python as a personal project after completing Har
 - Subtraction
 - Multiplication
 - Division
+- Power
 - Modulus
-- Exponentiation
-- Save calculation history
-- Error handling
+- Square Root
+- Operation History
+- Clear History
+- Error Handling
+- Clean Code Structure
 
-## Project Structure
+---
 
-```
-calculator.py
-operations.py
-history.py
-history.txt
-```
+## Requirements
 
-## Run
+- Python 3.10+
+
+---
+
+## Run the Program
 
 ```bash
 python calculator.py
 ```
 
+---
+
+## Project Structure
+
+```
+cs50-python-calculator/
+│
+├── calculator.py
+├── history.txt
+├── README.md
+├── LICENSE
+├── requirements.txt
+└── .gitignore
+```
+
+---
+
 ## Example
 
 ```
-Choose: 1
-First number: 20
-Second number: 15
+1) Addition
+2) Subtraction
+3) Multiplication
 
-Result = 35
+Select an option: 1
+
+First number: 10
+Second number: 20
+
+Result: 30
 ```
+
+---
+
+## Future Improvements
+
+- GUI using tkinter
+- Scientific Calculator
+- Unit Converter
+- Currency Converter
+- Theme Support
+- Calculator Memory
+- Automated Tests
+
+---
 
 ## Author
 
-Your Name
-
-## License
-
-MIT
+Created as a personal learning project after completing CS50 Python.
